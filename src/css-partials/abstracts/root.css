@@ -1,0 +1,24 @@
+:root {
+
+  /* colors */
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+
+  /* font sizes */
+  --fs-xs: .875rem;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-800: 1.75rem;
+  --fs-900: 2rem;
+  --fs-lg: 3.5rem;
+  --fs-xl: 6.25rem;
+  --fs-xxl: 9.375rem;
+
+  /* letter spacing */
+  --ls-narrow: 2.35px;
+  --ls-medium: 2.7px;
+  --ls-large: 4.75px;
+
+
+}

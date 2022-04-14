@@ -1,0 +1,24 @@
+.text-dark {
+  color: hsl(var(--clr-dark))
+}
+
+.bg-dark {
+  background-color: hsl( var(--clr-dark));
+}
+
+.text-light {
+  color: hsl(var(--clr-light))
+}
+
+.bg-light {
+  background-color: hsl( var(--clr-light));
+}
+
+.text-white {
+  color: hsl(var(--clr-white))
+}
+
+.bg-white {
+  background-color: hsl( var(--clr-white));
+}
+

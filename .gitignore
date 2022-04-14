@@ -1,0 +1,7 @@
+/node_modules/
+/public/build/
+/.prettierrc
+/postcss.config.js
+/README.md
+
+.DS_Store
