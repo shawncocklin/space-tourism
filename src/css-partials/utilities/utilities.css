@@ -22,7 +22,7 @@
 }
 
 .container {
-  padding-inline: 0 var(--spacer);
+  padding-inline: var(--spacer, 1rem);
   margin-inline: auto;
   max-width: var(--width, 60rem);
 }
