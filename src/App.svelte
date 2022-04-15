@@ -2,7 +2,7 @@
   import DesignSystem from './components/DesignSystem.svelte'
 </script>
 
-<main class="container bg-dark">
+<main class="container">
   <DesignSystem />
 </main>
 
