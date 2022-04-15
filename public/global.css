@@ -122,6 +122,9 @@ select {
   display: flex;
   gap: var(--gap, 1rem);
 }
+.flex-column {
+  flex-direction: column;
+}
 .grid {
   display: grid;
   gap: var(--gap, 1rem);
