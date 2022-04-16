@@ -16,9 +16,9 @@
   --fs-xxl: 9.375rem; /*150px*/
 
   /* font families */
-  --ff-serif: 'Bellefair';
-  --ff-sans-headings: 'Barlow Condensed';
-  --ff-sans-body: 'Barlow';
+  --ff-serif: 'Bellefair', serif;
+  --ff-sans-headings: 'Barlow Condensed', sans-serif;
+  --ff-sans-body: 'Barlow', sans-serif;
 
   /* letter spacing */
   --ls-narrow: 2.35px;
