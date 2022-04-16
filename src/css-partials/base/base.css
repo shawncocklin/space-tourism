@@ -1,5 +1,6 @@
 body {
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));
+  font-family: var(--ff-sans-body);
 }
 

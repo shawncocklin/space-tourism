@@ -18,6 +18,10 @@
   color: hsl(var(--clr-white))
 }
 
+.text-white-muted {
+  color: hsl(var(--clr-white) / .5)
+}
+
 .bg-white {
   background-color: hsl( var(--clr-white));
 }

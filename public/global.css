@@ -6,14 +6,19 @@
   --clr-white: 0 0% 100%;
 
   /* font sizes */
-  --fs-xs: .875rem;
-  --fs-300: 1rem;
-  --fs-400: 1.125rem;
-  --fs-800: 1.75rem;
-  --fs-900: 2rem;
-  --fs-lg: 3.5rem;
-  --fs-xl: 6.25rem;
-  --fs-xxl: 9.375rem;
+  --fs-xs: .875rem;   /*14px*/
+  --fs-300: 1rem;     /*16px*/
+  --fs-400: 1.125rem; /*18px*/
+  --fs-800: 1.75rem;  /*28px*/
+  --fs-900: 2rem;     /*32px*/
+  --fs-lg: 3.5rem;    /*56px*/
+  --fs-xl: 6.25rem;   /*100px*/
+  --fs-xxl: 9.375rem; /*150px*/
+
+  /* font families */
+  --ff-serif: 'Bellefair';
+  --ff-sans-headings: 'Barlow Condensed';
+  --ff-sans-body: 'Barlow';
 
   /* letter spacing */
   --ls-narrow: 2.35px;
@@ -88,6 +93,77 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* HEADINGS */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5 {
+  font-family: var(--ff-serif);
+  line-height: 1;
+}
+.h5 {
+  font-family: var(--ff-sans-headings);
+  letter-spacing: var(--ls-large);
+  font-weight: 400;
+}
+/* SUBHEADINGS */
+.subheading-one {
+  font-size: var(--fs-800);
+  font-family: var(--ff-serif);
+}
+.subheading-two {
+  font-size: var(--fs-xs);
+  font-family: var(--ff-sans-headings);
+  letter-spacing: var(--ls-narrow);
+}
+.nav-text {
+  font-size: var(--fs-300);
+  font-family: var(--ff-sans-headings);
+  letter-spacing: var(--ls-medium);
+}
+/* UTILITIES */
+.font-serif {
+  font-family: var(--ff-serif);
+}
+.font-sans {
+  font-family: var(--ff-sans-headings);
+}
+.font-sans-body {
+  font-family: var(--ff-sans-body);
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.letter-gap-lg {
+  letter-spacing: var(--ls-large);
+}
+/* FONT SIZING */
+.h1, .fs-xxl {
+  font-size: var(--fs-xxl);
+}
+.h2, .fs-xl {
+  font-size: var(--fs-xl);
+}
+.h3, .fs-lg {
+  font-size: var(--fs-lg);
+}
+.h4, .fs-900 {
+  font-size: var(--fs-900);
+}
+h5,
+.h5, .fs-800 {
+  font-size: var(--fs-800);
+}
+.fs-400 {
+  font-size: var(--fs-400);
+}
+.fs-300 {
+  font-size: var(--fs-300);
+}
+.fs-xs {
+  font-size: var(--fs-xs);
+}
 .text-dark {
   color: hsl(var(--clr-dark))
 }
@@ -102,6 +178,9 @@ select {
 }
 .text-white {
   color: hsl(var(--clr-white))
+}
+.text-white-muted {
+  color: hsl(var(--clr-white) / .5)
 }
 .bg-white {
   background-color: hsl( var(--clr-white));
@@ -137,7 +216,14 @@ select {
 .flow > * + *  {
   margin-top: var(--spacer);
 }
+/* GENERAL */
+.heading-span {
+  display: inline-block;
+  margin-right: 1em;
+ 
+}
 body {
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));
+  font-family: var(--ff-sans-body);
 }

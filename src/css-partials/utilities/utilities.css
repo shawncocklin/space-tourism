@@ -34,3 +34,10 @@
 .flow > * + *  {
   margin-top: var(--spacer);
 }
+
+/* GENERAL */
+.heading-span {
+  display: inline-block;
+  margin-right: 1em;
+ 
+}

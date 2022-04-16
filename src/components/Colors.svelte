@@ -1,4 +1,6 @@
-<h2><span>01</span>Colors</h2>
+<h2 class="h5 text-light uppercase letter-gap-lg">
+  <span class="heading-span text-white-muted">01</span>Colors
+</h2>
 
 <div class="grid main-grid">
   <div class="flex flex-column">
@@ -31,7 +33,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  span {
+  p > span {
     display: inline-block;
     margin-right: 3em;
   }
