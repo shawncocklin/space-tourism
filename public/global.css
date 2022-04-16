@@ -9,6 +9,7 @@
   --fs-xs: .875rem;   /*14px*/
   --fs-300: 1rem;     /*16px*/
   --fs-400: 1.125rem; /*18px*/
+  --fs-600: 1.5rem;   /*24px*/
   --fs-800: 1.75rem;  /*28px*/
   --fs-900: 2rem;     /*32px*/
   --fs-lg: 3.5rem;    /*56px*/
@@ -45,6 +46,15 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
 }
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
@@ -130,6 +140,9 @@ select {
 }
 .fs-800 {
   font-size: var(--fs-800);
+}
+.fs-600 {
+  font-size: var(--fs-600);
 }
 .fs-400 {
   font-size: var(--fs-400);

@@ -49,6 +49,10 @@
   font-size: var(--fs-800);
 }
 
+.fs-600 {
+  font-size: var(--fs-600);
+}
+
 .fs-400 {
   font-size: var(--fs-400);
 }

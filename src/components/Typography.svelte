@@ -1,4 +1,4 @@
-<h2 class="h5 text-light uppercase letter-gap-lg">
+<h2 class="fs-800 font-sans text-white uppercase letter-gap-lg">
   <span class="heading-span text-white-muted">02</span>Typography
 </h2>
 
