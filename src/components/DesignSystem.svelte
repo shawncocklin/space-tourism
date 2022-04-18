@@ -1,16 +1,20 @@
 <script>
   import Colors from './Colors.svelte'
   import Typography from './Typography.svelte'
+  import Interactive from './Interactive.svelte'
 </script>
 
 <main class="container">
-  <h1>Design System</h1>
+  <h1 style="margin-bottom: 2rem;">Design System</h1>
   <div class="flow">
     <section id="colors">
       <Colors />
     </section>
     <section id="typography">
       <Typography />
+    </section>
+    <section id="interactive">
+      <Interactive />
     </section>
   </div>
 </main>

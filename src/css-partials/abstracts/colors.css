@@ -26,3 +26,7 @@
   background-color: hsl( var(--clr-white));
 }
 
+.bg-white-muted {
+  background-color: hsl( var(--clr-white) / .04 );
+}
+

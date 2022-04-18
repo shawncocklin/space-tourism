@@ -17,8 +17,6 @@
   text-transform: uppercase;
 }
 
-.line-one { line-height: 1.3;}
-
 .letter-gap-lg {
   letter-spacing: var(--ls-large);
 }
@@ -63,4 +61,12 @@
 }
 .fs-xs {
   font-size: var(--fs-xs);
+}
+
+.fs-xxl,
+.fs-xl,
+.fs-lg,
+.fs-900,
+.fs-800 {
+  line-height: 1.3;
 }

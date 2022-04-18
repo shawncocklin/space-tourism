@@ -31,13 +31,14 @@
   max-width: var(--width, 60rem);
 }
 
-.flow > * + *  {
-  margin-top: var(--spacer);
+.flow > *:where(:not(:first-child))  {
+  margin-top: var(--spacer, 1rem);
 }
 
 /* GENERAL */
 .heading-span {
   display: inline-block;
   margin-right: 1em;
+  font-weight: 700;
  
 }
