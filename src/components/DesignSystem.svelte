@@ -3,12 +3,24 @@
   import Typography from './Typography.svelte'
 </script>
 
-<h1>Design System</h1>
+<main class="container">
+  <h1>Design System</h1>
+  <div class="flow">
+    <section id="colors">
+      <Colors />
+    </section>
+    <section id="typography">
+      <Typography />
+    </section>
+  </div>
+</main>
 
-<section id="colors">
-  <Colors />
-</section>
+<style>
+  .flow {
+    --spacer: 148px;
+  }
 
-<section id="typography">
-  <Typography />
-</section>
+  .container {
+    --width: 80rem;
+  }
+</style>

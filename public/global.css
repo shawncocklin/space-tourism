@@ -69,7 +69,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -116,6 +116,7 @@ select {
 .uppercase {
   text-transform: uppercase;
 }
+.line-one { line-height: 1.3;}
 .letter-gap-lg {
   letter-spacing: var(--ls-large);
 }

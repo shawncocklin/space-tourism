@@ -17,6 +17,8 @@
   text-transform: uppercase;
 }
 
+.line-one { line-height: 1.3;}
+
 .letter-gap-lg {
   letter-spacing: var(--ls-large);
 }
