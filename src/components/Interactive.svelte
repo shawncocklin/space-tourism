@@ -4,6 +4,7 @@
 
 <div class="flow" style="--spacer: 2rem;">
   <nav class="bg-white-muted" style="padding: 2rem 0;">
+    <!-- svelte-ignore a11y-no-redundant-roles -->
     <ul class="main-nav flex justify-between" role="list">
       <li><a class="nav-link uppercase" href="/"><span class="bold">00 </span>Active</a></li>
       <li><a class="nav-link uppercase" href="/"><span class="bold">01 </span>Hovered</a></li>
