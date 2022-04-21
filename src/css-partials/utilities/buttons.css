@@ -1,0 +1,12 @@
+.nav-link {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-family: var(--ff-sans-headings);
+  font-size: var(--fs-400);
+  letter-spacing: var(--ls-medium);
+}
+
+.main-nav {
+  width: 60%;
+  margin-inline: auto;
+}
