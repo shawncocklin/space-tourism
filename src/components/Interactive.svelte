@@ -4,36 +4,30 @@
 
 <div class="flow" style="--spacer: 2rem;">
   <nav class="bg-white-muted" style="padding: 2rem 0;">
-    <!-- svelte-ignore a11y-no-redundant-roles -->
-    <ul class="main-nav flex justify-between" role="list">
-      <li><a class="nav-link uppercase" href="/"><span class="bold">00 </span>Active</a></li>
-      <li><a class="nav-link uppercase" href="/"><span class="bold">01 </span>Hovered</a></li>
-      <li><a class="nav-link uppercase" href="/"><span class="bold">02 </span>Idle</a></li>
+    <ul class="main-nav state-indicators flex justify-between">
+      <li class="active">
+        <a class="link uppercase text-white font-sans fs-400 letter-gap-md" href="/"><span>00</span>Active</a>
+      </li>
+      <li>
+        <a class="link uppercase text-white font-sans fs-400 letter-gap-md" href="/"><span>01</span>Hovered</a>
+      </li>
+      <li>
+        <a class="link uppercase text-white font-sans fs-400 letter-gap-md" href="/"><span>02</span>Idle</a>
+      </li>
     </ul>
   </nav>
 
   <p class="text-light fs-400 text-center">Different States of Navigation Bar</p>
 </div>
 <div>
-  <div>
-    <button>Explore</button>
-    <button>Explore</button>
+  <div style="margin: 4rem 0;">
+    <a href="/" class="btn-large link fs-900 font-serif uppercase bg-white text-dark">Explore</a>
   </div>
-  <ul>
-    <li><a href="/">Moon</a></li>
-    <li><a href="/">Mars</a></li>
-    <li><a href="/">Europa</a></li>
-  </ul>
-  <ul>
-    <li><a href="/">0</a></li>
-    <li><a href="/">0</a></li>
-    <li><a href="/">0</a></li>
-  </ul>
-  <ul>
-    <li><a href="/">1</a></li>
-    <li><a href="/">2</a></li>
-    <li><a href="/">3</a></li>
-  </ul>
+  <div class="tab-nav state-indicators flex">
+    <button aria-selected="true" class="uppercase text-light font-sans fs-400 letter-gap-md">Moon</button>
+    <button aria-selected="false" class="uppercase text-light font-sans fs-400 letter-gap-md">Mars</button>
+    <button aria-selected="false" class="uppercase text-light font-sans fs-400 letter-gap-md">Europa</button>
+  </div>
 </div>
 
 <style>
