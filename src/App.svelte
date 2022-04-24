@@ -1,5 +1,5 @@
 <script>
-  import DesignSystem from './components/DesignSystem.svelte'
+  import DesignSystem from './components/design-system/DesignSystem.svelte'
 </script>
 
 <DesignSystem />
