@@ -28,6 +28,16 @@
     <button aria-selected="false" class="uppercase text-light font-sans fs-400 letter-gap-md">Mars</button>
     <button aria-selected="false" class="uppercase text-light font-sans fs-400 letter-gap-md">Europa</button>
   </div>
+  <div class="slider state-indicators flex">
+    <button aria-selected="true" class="slider-small" />
+    <button aria-selected="false" class="slider-small" />
+    <button aria-selected="false" class="slider-small" />
+  </div>
+  <div class="slider state-indicators flex flex-column">
+    <button aria-selected="true" class="slider-large font-serif fs-900">1</button>
+    <button aria-selected="false" class="slider-large font-serif fs-900">2</button>
+    <button aria-selected="false" class="slider-large font-serif fs-900">3</button>
+  </div>
 </div>
 
 <style>
